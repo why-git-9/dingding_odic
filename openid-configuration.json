@@ -1,0 +1,11 @@
+{
+  "issuer": "https://login.dingtalk.com",
+  "authorization_endpoint": "https://login.dingtalk.com/oauth2/auth",
+  "token_endpoint": "https://api.dingtalk.com/v1.0/oauth2/userAccessToken",
+  "userinfo_endpoint": "https://api.dingtalk.com/v1.0/contact/users/me",
+  "jwks_uri": "https://login.dingtalk.com/oauth2/certs",
+  "response_types_supported": ["code"],
+  "subject_types_supported": ["public"],
+  "id_token_signing_alg_values_supported": ["RS256"],
+  "scopes_supported": ["openid", "profile", "jobnumber"]
+}
